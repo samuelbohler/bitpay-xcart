@@ -1,0 +1,26 @@
+XLite\Model\Payment\Method:
+  - service_name: BitPay
+    class: Module\BitPay\BitPay\Model\Payment\Processor\BitPay
+    type: C
+    translations:
+      - code:  en
+        name:  BitPay
+    settings:
+      - name:  privateKey
+      - name:  publicKey
+      - name:  connection
+        value: disconnected
+      - name:  network
+      - name:  token
+      - name:  riskSpeed
+        value: low
+      - name:  notifyUrl
+      - name:  returnUrl
+      - name:  debug
+        value: 0
+      - name:  version
+        value: 2.3.0
+XLite\Model\Currency:
+  - code: BTC
+    symbol: B⃦
+    e: 8

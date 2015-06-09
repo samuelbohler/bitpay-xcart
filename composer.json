@@ -1,0 +1,31 @@
+{
+    "name": "bitpay/bitpay-xcart",
+    "description": "BitPay Payment Module for X-Cart",
+    "version": "2.3.0",
+    "type": "drupalcommerce-module",
+    "keywords": ["bitcoin", "bitpay", "x-cart", "payment", "btc", "xbt"],
+    "homepage": "https://github.com/bitpay/bitpay-xcart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BitPay, Inc.",
+            "homepage": "https://bitpay.com"
+        }
+    ],
+    "support": {
+        "email": "support@bitpay.com",
+        "issues": "https://github.com/bitpay/bitpay-xcart/issues"
+    },
+    "require": {
+        "php" : ">=5.4.0",
+        "bitpay/php-client": "dev-master"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "codegyre/robo": "*"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
